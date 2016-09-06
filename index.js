@@ -5,7 +5,7 @@ var MyStackClass={
     },
     pop:function(){
         var ret = this.stack[this.stack.length-1];
-        this.stack.lenth=this.stack.length-1;
+        this.stack.length=this.stack.length-1;
         return ret;
     },
     peek:function(){
